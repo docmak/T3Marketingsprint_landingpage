@@ -209,18 +209,18 @@ img.welcome-logo {
 
 @font-face {
   font-family: "Share-Regular";
-  src: url('/fonts/Share-Regular.otf?1423761037') format('opentype');
+  src: url('/fonts/Share-Regular.otf?1475863000') format('opentype');
   font-weight: 400;
 }
 @font-face {
   font-family: "Share-bold";
-  src: url('/fonts/Share-Bold.otf?1423761035') format('opentype');
+  src: url('/fonts/Share-Bold.otf?1475863000') format('opentype');
   font-weight: 700;
 }
     /* ==========================================================================
 Preloader Style
 ========================================================================== */
-/* line 27, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 .preloader {
   position: fixed;
   top: 0;
@@ -230,7 +230,7 @@ Preloader Style
   z-index: 999999;
   background: #24242a;
 }
-/* line 35, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 .preloader i {
   color: #fff;
   position: absolute;
@@ -248,22 +248,26 @@ Preloader Style
     /* ==========================================================================
 Navigation Style
 ========================================================================== */
-/* line 53, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 .navbar-default {
   background: rgba(13, 13, 13, 0.6);
   margin-bottom: 0;
   border: none;
 }
-/* line 57, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 .navbar-default .navbar-header {
   width: 28%;
   padding-right: 15px;
 }
-/* line 61, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
+.navbar-default .navbar-header img {
+  height: 52px;
+}
+/* line 69, ../sass/main.scss */
 .navbar-default .nav-wrap {
   width: 50%;
 }
-/* line 64, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 .navbar-default .nav > li > a {
   font-size: 14px;
   color: #fff;
@@ -275,23 +279,23 @@ Navigation Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 72, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus,
 .navbar-default .nav > li > a:active {
   color: #a3a3a3;
 }
-/* line 77, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .navbar-default .social-media {
   float: right;
   padding: 0 15px;
 }
-/* line 78, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .navbar-default .social-media i {
   font-size: 22px;
 }
 
-/* line 86, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
@@ -299,20 +303,20 @@ Navigation Style
   color: #a3a3a3;
 }
 
-/* line 93, ../sass/main.scss */
+/* line 101, ../sass/main.scss */
 .top-nav-collapse {
   background: #24242a;
 }
-/* line 95, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .top-nav-collapse .navbar-brand {
   height: auto;
 }
-/* line 97, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 .top-nav-collapse .navbar-brand img {
   width: auto;
   height: 52px;
 }
-/* line 102, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 .top-nav-collapse .nav > li > a {
   padding: 30px 15px;
 }
@@ -320,11 +324,11 @@ Navigation Style
     /* ==========================================================================
 Sliders Style
 ========================================================================== */
-/* line 110, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 #owl-hero {
   overflow: hidden;
 }
-/* line 112, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 #owl-hero .item {
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -333,7 +337,7 @@ Sliders Style
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 116, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 #owl-hero .item .caption {
   position: absolute;
   top: 50%;
@@ -343,22 +347,22 @@ Sliders Style
   text-align: center;
   z-index: 15;
 }
-/* line 124, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 #owl-hero .item .caption h1 {
   margin-top: 40px;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
-/* line 128, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 #owl-hero .item .caption h1 span {
   font-family: 'Share-Bold';
 }
-/* line 132, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 #owl-hero .item .caption h6 {
   color: #fff;
   margin: 0;
 }
-/* line 138, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 #owl-hero .owl-pagination {
   position: absolute;
   display: block;
@@ -366,11 +370,11 @@ Sliders Style
   width: 100%;
   bottom: 5%;
 }
-/* line 144, ../sass/main.scss */
+/* line 152, ../sass/main.scss */
 #owl-hero .owl-pagination .owl-page.active span {
   background: #fff;
 }
-/* line 147, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 #owl-hero .owl-pagination .owl-page span {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -381,22 +385,22 @@ Sliders Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 156, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 #owl-hero .owl-buttons div {
   background: #fff;
   font-size: 24px;
   color: #a3a3a3;
   opacity: 1;
 }
-/* line 162, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 #owl-hero .owl-buttons .owl-prev {
   left: -60px;
 }
-/* line 165, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 #owl-hero .owl-buttons .owl-next {
   right: -60px;
 }
-/* line 168, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 #owl-hero .owl-buttons .owl-prev,
 #owl-hero .owl-buttons .owl-next {
   position: absolute;
@@ -415,12 +419,12 @@ Sliders Style
   transition: all 0.3s ease-in-out;
 }
 
-/* line 185, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 #owl-hero:hover .owl-prev {
   left: -5px;
 }
 
-/* line 189, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 #owl-hero:hover .owl-next {
   right: -5px;
 }
@@ -428,20 +432,20 @@ Sliders Style
     /* ==========================================================================
 Welcome Style
 ========================================================================== */
-/* line 196, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 #welcome {
   padding: 60px 0;
   text-align: center;
 }
-/* line 199, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 #welcome h2 {
   text-transform: uppercase;
 }
-/* line 201, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 #welcome h2 span {
   font-weight: 700;
 }
-/* line 205, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 #welcome img {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -450,43 +454,43 @@ Welcome Style
     /* ==========================================================================
 Services Style
 ========================================================================== */
-/* line 214, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 #services {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
 }
-/* line 218, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 #services h2 {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 222, ../sass/main.scss */
+/* line 230, ../sass/main.scss */
 #services p {
   color: #fff;
 }
-/* line 225, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 #services .services-box {
   margin-top: 40px;
 }
-/* line 227, ../sass/main.scss */
+/* line 235, ../sass/main.scss */
 #services .services-box .col-md-4 {
   margin-bottom: 20px;
 }
-/* line 229, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 #services .services-box .col-md-4 .media-left,
 #services .services-box .col-md-4 .media-right,
 #services .services-box .col-md-4 .media-body {
   padding-right: 30px;
   vertical-align: baseline;
 }
-/* line 234, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 #services .services-box .col-md-4 .media-left p,
 #services .services-box .col-md-4 .media-right p,
 #services .services-box .col-md-4 .media-body p {
   text-align: left;
 }
-/* line 237, ../sass/main.scss */
+/* line 245, ../sass/main.scss */
 #services .services-box .col-md-4 .media-left h3,
 #services .services-box .col-md-4 .media-right h3,
 #services .services-box .col-md-4 .media-body h3 {
@@ -494,7 +498,7 @@ Services Style
   color: #fff;
   text-align: left;
 }
-/* line 242, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 #services .services-box .col-md-4 .media-left span,
 #services .services-box .col-md-4 .media-right span,
 #services .services-box .col-md-4 .media-body span {
@@ -505,37 +509,37 @@ Services Style
     /* ==========================================================================
 Portfolio Style
 ========================================================================== */
-/* line 254, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 #portfolio {
   padding: 60px 0;
   text-align: center;
 }
-/* line 257, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 #portfolio h2 {
   text-transform: uppercase;
 }
-/* line 260, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 #portfolio p {
   margin-bottom: 40px;
 }
-/* line 263, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 #portfolio .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 266, ../sass/main.scss */
+/* line 274, ../sass/main.scss */
 #portfolio .container-fluid .col-lg-4 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 271, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 #portfolio .portfolio-box {
   display: block;
   position: relative;
   margin: 0 auto;
   max-width: 650px;
 }
-/* line 276, ../sass/main.scss */
+/* line 284, ../sass/main.scss */
 #portfolio .portfolio-box .portfolio-box-caption {
   display: block;
   position: absolute;
@@ -551,7 +555,7 @@ Portfolio Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 287, ../sass/main.scss */
+/* line 295, ../sass/main.scss */
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -559,22 +563,22 @@ Portfolio Style
   text-align: center;
   transform: translateY(-50%);
 }
-/* line 293, ../sass/main.scss */
+/* line 301, ../sass/main.scss */
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
 }
-/* line 297, ../sass/main.scss */
+/* line 305, ../sass/main.scss */
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
 }
-/* line 302, ../sass/main.scss */
+/* line 310, ../sass/main.scss */
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-/* line 308, ../sass/main.scss */
+/* line 316, ../sass/main.scss */
 #portfolio .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
@@ -582,25 +586,25 @@ Portfolio Style
     /* ==========================================================================
 Work Process Style
 ========================================================================== */
-/* line 316, ../sass/main.scss */
+/* line 324, ../sass/main.scss */
 #work-process {
   padding: 60px 0;
   text-align: center;
 }
-/* line 319, ../sass/main.scss */
+/* line 327, ../sass/main.scss */
 #work-process .col-lg-3 {
   margin-top: 40px;
 }
-/* line 322, ../sass/main.scss */
+/* line 330, ../sass/main.scss */
 #work-process h2 {
   text-transform: uppercase;
 }
-/* line 325, ../sass/main.scss */
+/* line 333, ../sass/main.scss */
 #work-process h4 {
   text-transform: uppercase;
   color: #0d0d0d;
 }
-/* line 329, ../sass/main.scss */
+/* line 337, ../sass/main.scss */
 #work-process span {
   font-size: 48px;
   color: #0d0d0d;
@@ -610,39 +614,39 @@ Work Process Style
     /* ==========================================================================
 Fun Facts Style
 ========================================================================== */
-/* line 339, ../sass/main.scss */
+/* line 347, ../sass/main.scss */
 #fun-facts {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
 }
-/* line 343, ../sass/main.scss */
+/* line 351, ../sass/main.scss */
 #fun-facts .col-lg-3 {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-/* line 347, ../sass/main.scss */
+/* line 355, ../sass/main.scss */
 #fun-facts h2 {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 351, ../sass/main.scss */
+/* line 359, ../sass/main.scss */
 #fun-facts p {
   color: #fff;
 }
-/* line 354, ../sass/main.scss */
+/* line 362, ../sass/main.scss */
 #fun-facts h4 {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 358, ../sass/main.scss */
+/* line 366, ../sass/main.scss */
 #fun-facts .number {
   color: #fff;
   font-weight: 700;
   padding: 10px 0;
   margin: 0;
 }
-/* line 364, ../sass/main.scss */
+/* line 372, ../sass/main.scss */
 #fun-facts span {
   font-size: 48px;
   color: #fff;
@@ -652,31 +656,31 @@ Fun Facts Style
     /* ==========================================================================
 Our Team Style
 ========================================================================== */
-/* line 374, ../sass/main.scss */
+/* line 382, ../sass/main.scss */
 #team {
   padding: 60px 0;
   text-align: center;
 }
-/* line 377, ../sass/main.scss */
+/* line 385, ../sass/main.scss */
 #team h2 {
   text-transform: uppercase;
 }
-/* line 380, ../sass/main.scss */
+/* line 388, ../sass/main.scss */
 #team .team {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-/* line 383, ../sass/main.scss */
+/* line 391, ../sass/main.scss */
 #team .team h4 {
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 388, ../sass/main.scss */
+/* line 396, ../sass/main.scss */
 #team .team p {
   color: #a3a3a3;
 }
-/* line 391, ../sass/main.scss */
+/* line 399, ../sass/main.scss */
 #team .team a {
   color: #0d0d0d;
   font-size: 22px;
@@ -686,7 +690,7 @@ Our Team Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 397, ../sass/main.scss */
+/* line 405, ../sass/main.scss */
 #team .team a:hover,
 #team .team a:focus,
 #team .team a:active {
@@ -696,7 +700,7 @@ Our Team Style
     /* ==========================================================================
 Testimonials Style
 ========================================================================== */
-/* line 408, ../sass/main.scss */
+/* line 416, ../sass/main.scss */
 #testimonials {
   background-image: url("../img/testimonials/Testimonials.jpg");
   -moz-background-size: cover;
@@ -709,47 +713,47 @@ Testimonials Style
   padding: 60px 0;
   text-align: center;
 }
-/* line 416, ../sass/main.scss */
+/* line 424, ../sass/main.scss */
 #testimonials h2 {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 420, ../sass/main.scss */
+/* line 428, ../sass/main.scss */
 #testimonials p {
   color: #fff;
 }
-/* line 424, ../sass/main.scss */
+/* line 432, ../sass/main.scss */
 #testimonials .item .quote {
   margin: 20px auto;
   width: 80%;
 }
-/* line 427, ../sass/main.scss */
+/* line 435, ../sass/main.scss */
 #testimonials .item .quote .right {
   margin-left: 40px;
   font-size: 32px;
   color: #fff;
 }
-/* line 432, ../sass/main.scss */
+/* line 440, ../sass/main.scss */
 #testimonials .item .quote .left {
   float: left;
   margin-right: 40px;
   color: #fff;
 }
-/* line 438, ../sass/main.scss */
+/* line 446, ../sass/main.scss */
 #testimonials .item h5 {
   color: #fff;
   line-height: 36px;
 }
-/* line 441, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 #testimonials .item h5 span {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 448, ../sass/main.scss */
+/* line 456, ../sass/main.scss */
 #testimonials .owl-pagination .owl-page.active span {
   background-color: #fff;
 }
-/* line 451, ../sass/main.scss */
+/* line 459, ../sass/main.scss */
 #testimonials .owl-pagination .owl-page span {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -764,24 +768,24 @@ Testimonials Style
     /* ==========================================================================
 Contact Us Style
 ========================================================================== */
-/* line 464, ../sass/main.scss */
+/* line 472, ../sass/main.scss */
 #contact {
   padding: 60px 0;
   text-align: center;
 }
-/* line 467, ../sass/main.scss */
+/* line 475, ../sass/main.scss */
 #contact h2 {
   text-transform: uppercase;
 }
-/* line 470, ../sass/main.scss */
+/* line 478, ../sass/main.scss */
 #contact form {
   margin: 40px 0;
 }
-/* line 473, ../sass/main.scss */
+/* line 481, ../sass/main.scss */
 #contact .form-group {
   margin-bottom: 35px;
 }
-/* line 476, ../sass/main.scss */
+/* line 484, ../sass/main.scss */
 #contact .form-control {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -790,7 +794,7 @@ Contact Us Style
   color: #0d0d0d;
   min-height: 45px;
 }
-/* line 482, ../sass/main.scss */
+/* line 490, ../sass/main.scss */
 #contact textarea {
   height: 140px;
   resize: none;
@@ -799,7 +803,7 @@ Contact Us Style
     /* ==========================================================================
 Google Map Style
 ========================================================================== */
-/* line 491, ../sass/main.scss */
+/* line 499, ../sass/main.scss */
 #map {
   width: 100%;
   height: 400px;
@@ -808,22 +812,22 @@ Google Map Style
     /* ==========================================================================
 Footer Map Style
 ========================================================================== */
-/* line 499, ../sass/main.scss */
+/* line 507, ../sass/main.scss */
 footer {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
 }
-/* line 503, ../sass/main.scss */
+/* line 511, ../sass/main.scss */
 footer h1 {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 507, ../sass/main.scss */
+/* line 515, ../sass/main.scss */
 footer .social {
   margin: 40px 0;
 }
-/* line 509, ../sass/main.scss */
+/* line 517, ../sass/main.scss */
 footer .social a {
   color: #fff;
   margin-left: 20px;
@@ -833,13 +837,13 @@ footer .social a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 515, ../sass/main.scss */
+/* line 523, ../sass/main.scss */
 footer .social a:hover,
 footer .social a:focus,
 footer .social a:active {
   color: #a3a3a3;
 }
-/* line 521, ../sass/main.scss */
+/* line 529, ../sass/main.scss */
 footer h6 {
   text-transform: uppercase;
   color: #fff;
@@ -850,106 +854,106 @@ Media Queries Style
 ========================================================================== */
 @media (max-width: 992px) {
   /*-- Navigation --*/
-  /* line 532, ../sass/main.scss */
+  /* line 540, ../sass/main.scss */
   .navbar-default {
     background: #24242a;
   }
-  /* line 534, ../sass/main.scss */
+  /* line 542, ../sass/main.scss */
   .navbar-default .navbar-header {
     width: 100%;
     padding-right: 0;
   }
-  /* line 537, ../sass/main.scss */
+  /* line 545, ../sass/main.scss */
   .navbar-default .navbar-header .navbar-brand {
     height: auto;
   }
-  /* line 539, ../sass/main.scss */
+  /* line 547, ../sass/main.scss */
   .navbar-default .navbar-header .navbar-brand img {
-    width: 52px;
+    width: auto;
     height: 52px;
   }
-  /* line 545, ../sass/main.scss */
+  /* line 553, ../sass/main.scss */
   .navbar-default .nav-wrap {
     width: 100%;
   }
-  /* line 548, ../sass/main.scss */
+  /* line 556, ../sass/main.scss */
   .navbar-default .navbar-toggle {
     padding-top: 25px;
     padding-bottom: 25px;
     border: none;
   }
-  /* line 552, ../sass/main.scss */
+  /* line 560, ../sass/main.scss */
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
   }
-  /* line 556, ../sass/main.scss */
+  /* line 564, ../sass/main.scss */
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:active {
     background: none;
   }
-  /* line 561, ../sass/main.scss */
+  /* line 569, ../sass/main.scss */
   .navbar-default .navbar-left,
   .navbar-default .navbar-right {
     float: none !important;
   }
-  /* line 565, ../sass/main.scss */
+  /* line 573, ../sass/main.scss */
   .navbar-default .navbar-toggle {
     display: block;
   }
-  /* line 568, ../sass/main.scss */
+  /* line 576, ../sass/main.scss */
   .navbar-default .navbar-collapse {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
-  /* line 571, ../sass/main.scss */
+  /* line 579, ../sass/main.scss */
   .navbar-default .navbar-collapse.collapse {
     display: none !important;
   }
-  /* line 574, ../sass/main.scss */
+  /* line 582, ../sass/main.scss */
   .navbar-default .navbar-nav {
     float: none !important;
     margin-top: 7.5px;
   }
-  /* line 578, ../sass/main.scss */
+  /* line 586, ../sass/main.scss */
   .navbar-default .navbar-nav > li {
     float: none;
   }
-  /* line 581, ../sass/main.scss */
+  /* line 589, ../sass/main.scss */
   .navbar-default .collapse.in {
     display: block !important;
   }
 
   /*-- Sliders --*/
-  /* line 587, ../sass/main.scss */
+  /* line 595, ../sass/main.scss */
   #owl-hero h1 {
     font-size: 42px;
   }
-  /* line 590, ../sass/main.scss */
+  /* line 598, ../sass/main.scss */
   #owl-hero h6 {
     font-size: 16px;
   }
-  /* line 593, ../sass/main.scss */
+  /* line 601, ../sass/main.scss */
   #owl-hero .btn {
     margin-top: 20px;
   }
-  /* line 596, ../sass/main.scss */
+  /* line 604, ../sass/main.scss */
   #owl-hero .owl-buttons {
     display: none;
   }
 
   /*-- Services --*/
-  /* line 602, ../sass/main.scss */
+  /* line 610, ../sass/main.scss */
   #services h3 {
     font-size: 22px;
   }
 
   /*-- section styles --*/
-  /* line 608, ../sass/main.scss */
+  /* line 616, ../sass/main.scss */
   section h2 {
     font-size: 32px;
   }
 
-  /* line 613, ../sass/main.scss */
+  /* line 621, ../sass/main.scss */
   #testimonials h5 {
     font-size: 18px;
   }
