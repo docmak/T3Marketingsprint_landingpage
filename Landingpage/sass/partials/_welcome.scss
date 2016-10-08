@@ -1,9 +1,15 @@
 p.welcome-slogan{
   font-family: Share-Regular;
-  font-size: 70px;
+  font-size: 50px;
 }
 img.welcome-logo{
   height: 36rem;
   width: auto;
   margin-top: 0px;
+}
+.welcome-text{
+  text-align: left;
+}
+#welcome img{
+  margin-top: 0 !important;
 }
