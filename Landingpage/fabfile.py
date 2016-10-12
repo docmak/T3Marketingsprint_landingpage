@@ -8,7 +8,7 @@ env.user = 'cid3192'
 env.hosts = ['hs15.hosting.punkt.de']
 env.shell = '/usr/local/bin/bash -l -c'
 
-ext_dir = '/var/apache/cid3192/htdocs/'
+ext_dir = '/var/apache/cid3192/htdocs/t3marketingsprint_landingpage/'
 
 @task
 def deploy():
